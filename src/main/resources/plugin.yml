@@ -8,3 +8,7 @@ depend:
 commands:
   mspawn:
     usage: ""
+
+permissions:
+  mrespawn.admin:
+    default: op

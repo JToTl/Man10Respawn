@@ -33,6 +33,8 @@ class MRespawnCommand(val plugin:Main,alias:String,val pluginTitle:String): Comm
 
     init {
 
+        setPermission("mrespawn.admin")
+
         addFirstArgument(
             CommandObject("delete")
                 .addNextArgument(deleteObject)
