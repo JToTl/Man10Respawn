@@ -1,0 +1,10 @@
+name: Man10Respawn
+version: '${version}'
+main: ltotj.minecraft.man10respawn.Main
+api-version: 1.17
+depend:
+  - WorldGuard
+
+commands:
+  mspawn:
+    usage: ""
